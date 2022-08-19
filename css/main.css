@@ -936,15 +936,27 @@ input::-moz-focus-inner {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .skill-bars li {
   /* margin: 10px; */
   min-width: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* align-content: center; */
+  /* align-self: flex-end; */
+  justify-content: flex-end;
 }
 
 .skill-bars li img {
-  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  max-width: 50px;
 }
 .skill-bars li p {
   font-family: "poppins-regular", sans-serif;
@@ -1224,7 +1236,7 @@ header .logo a {
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
-  height: 100%;
+  height: 75%;
   min-height: 720px;
   display: table;
   position: relative;
@@ -1426,16 +1438,13 @@ header .logo a {
 }
 
 .intro-info {
-  margin-top: 4.2rem;
+  margin-top: 1rem;
   margin-right: -30px;
   margin-left: -30px;
 }
 .intro-info img {
-  height: 12rem;
-  width: 12rem;
-  border-radius: 50%;
-  margin: 2rem;
-  float: left;
+  width: 20rem;
+  border-radius: 5px;
 }
 .intro-info .lead {
   text-align: left;
@@ -1555,7 +1564,7 @@ header .logo a {
   padding-bottom: 10rem;
 }
 #portfolio .folio-item {
-  padding: 0;
+  padding: 15px;
   position: relative;
   overflow: hidden;
 }
@@ -1794,7 +1803,7 @@ header .logo a {
   * ------------------------------------------------------------------- 
   */
 #services {
-  background: #313131 url(../images/intro-bg.jpg) no-repeat center;
+  background: #313131 url(../images/services-bg.jpg) no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -2110,7 +2119,9 @@ header .logo a {
   display: block;
 }
 .contact-info {
-  margin: 4.8rem auto 0;
+  /* margin: 4.8rem auto 0; */
+  display: flex;
+  justify-content: center;
   font-family: "poppins-regular", sans-serif;
   font-size: 1.5rem;
   text-align: center;
