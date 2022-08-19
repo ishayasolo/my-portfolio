@@ -8,13 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Joshuromi/joshuromi-website.git"
+    "url": "git+https://github.com/ishayasolo/my-portfolio.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Joshuromi/joshuromi-website/issues"
   },
-  "homepage": "https://github.com/Joshuromi/joshuromi-website#readme"
+  "homepage": "https://github.com/ishayasolo/my-portfolio"
 }
